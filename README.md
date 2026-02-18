@@ -1,10 +1,11 @@
 # 🔮 RedTeamOracle
 
 > *A totally agentic red team framework.*
-> Show this to your boss and get an instant promotion.
-> Your boss doesn’t know what they don’t see. Show them this—and give your promotion case the spotlight it deserves.
----
 
+---
+> Show this to your boss and get an instant promotion.
+
+> Your boss doesn’t know what they don’t see. Show them this—and give your promotion case the spotlight it deserves.
 ## What is this?
 
 RedTeamOracle is a **professional-grade** agentic penetration testing framework with:
