@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "redteamoracle"
+version = "4.4.4"
+description = "A totally serious red team framework. The oracle decides if you deserve to hack today."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "The Oracle", email = "oracle@nottoday.io" }]
+keywords = ["pentest", "red-team", "security", "oracle", "dice"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Information Technology",
+    "Topic :: Security",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "click>=8.1",
+    "rich>=13.0",
+    "httpx>=0.27",
+    "openai>=1.0",
+    "anthropic>=0.25",
+]
+
+[project.scripts]
+redteamoracle = "redteamoracle.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/nottoday/redteamoracle"
+"Bug Tracker" = "https://github.com/nottoday/redteamoracle/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/redteamoracle"]
