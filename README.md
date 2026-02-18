@@ -20,7 +20,7 @@ And most importantly:
 ## Installation
 
 ```bash
-pipx install redteamoracle
+pipx install git+https://github.com/kvsec/redteamoracle
 ```
 
 Or from source:
